@@ -1,11 +1,7 @@
 'use strict';
-// document.querySelector('.message').textContent = 'correct';
-// document.querySelector('.score').textContent = 50;
-// document.querySelector('.highscore').textContent = 100;
-// document.querySelector('.guess').value = 23;
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
-// document.querySelector('.number').textContent = secretNumber;
+
 let score = 20;
 let highScore = 0;
 const displayMessage = function (message) {
